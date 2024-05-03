@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "tsx watch --env-file .env src/server.ts",
     "husky:prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:staged": "vitest related --run"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "prettier": "^3.2.5",
     "tsx": "^4.9.0",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.8.0"
+    "typescript-eslint": "^7.8.0",
+    "vitest": "^1.5.3"
   }
 }
